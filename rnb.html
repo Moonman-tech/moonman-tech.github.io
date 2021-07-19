@@ -1,0 +1,451 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<body>
+
+<div class="logo-container">
+  <a class="brand-container" href="#">
+    <img src="css\icons\logo.png" id="logo">
+  </a>
+</div>
+
+<ul class="horizontal-menu">
+  <div class="container-menu">
+    <a class="tab-menu" style="cursor:pointer" onclick="openNav()">
+      <img class="tab-menu-image" src="css\icons\sidemenu.png">
+    </a>
+    <li class="menu-list"><a class="menu-a" href="books.html">Connect</a></li>
+    <li class="menu-list"><a class="menu-a" href="hope.html">Hope</a></li>
+    <li class="menu-list"><a class="menu-a" href="#">Help</a></li>
+    <li class="menu-list"><a class="menu-a" href="about.html">About</a></li>
+  </div>
+</ul>
+
+<div id="best-menu">
+  <ul class="laptop-menu">
+    <ul id="best-icon-menu">
+      <a class="tab-link" href="index.html">
+        <img class="nav-icon" src="css\icons\home1.png">
+      </a>
+
+      <a class="tab-link" href="trending.html">
+        <img class="nav-icon" src="css\icons\trending1.png"> <!--width="30" height="30"-->
+      </a>
+
+      <a class="tab-link" href="music.html">
+        <img class="nav-icon" src="css\icons\music.png">
+      </a>
+
+      <a class="tab-link" href="art.html">
+        <img class="nav-icon" src="css\icons\art1.png">
+      </a>
+
+      <a class="tab-link" href="fashion.html">
+        <img class="nav-icon" src="css\icons\fashion1.png">
+      </a>
+
+      <a class="tab-link" href="events.html">
+        <img class="nav-icon" src="css\icons\events.png">
+      </a>
+
+      <a class="tab-link" href="tourism.html">
+        <img class="nav-icon" src="css\icons\tourism.png">
+      </a>
+
+      <a class="tab-link" href="economy.html">
+        <img class="nav-icon" src="css\icons\economy.png">
+      </a>
+
+      <a class="tab-link" href="cuisine.html">
+        <img class="nav-icon" src="css\icons\food.png">
+      </a>
+
+      <a class="tab-link" href="business.html">
+        <img class="nav-icon" src="css\icons\business.png">
+      </a>
+
+      <a class="tab-link" href="invest.html">
+        <img class="nav-icon" src="css\icons\invest.png">
+      </a>
+
+      <a class="tab-link" href="agriculture.html">
+        <img class="nav-icon" src="css\icons\agriculture.png">
+      </a>
+
+      <a class="tab-link" href="books.html">
+        <img class="nav-icon" src="css\icons\book.png">
+      </a>
+    </ul>
+  </ul>
+</div>
+
+
+
+<div>
+  <div id="mySidenav-tab" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a class="tab-link" href="index.html">
+      <img src="css\icons\home1.png" alt="Home" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Home</p>
+    </a>
+
+    <a class="tab-link" href="trending.html">
+      <img src="css\icons\trending1.png" alt="Sports" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Sports</p>
+    </a>
+
+    <a class="tab-link" href="music.html">
+      <img src="css\icons\music.png" alt="Music" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Music</p>
+    </a>
+
+    <a class="tab-link" href="art.html">
+      <img src="css\icons\art1.png" alt="Art" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Art</p>
+    </a>
+
+    <a class="tab-link" href="fashion.html">
+      <img src="css\icons\fashion1.png" alt="Fashion" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Fashion</p>
+    </a>
+
+    <a class="tab-link" href="events.html">
+      <img src="css\icons\events.png" alt="Events" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Events</p>
+    </a>
+
+    <a class="tab-link" href="tourism.html">
+      <img src="css\icons\tourism.png" alt="Tourism" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Tourism</p>
+    </a>
+
+    <a class="tab-link" href="economy.html">
+      <img src="css\icons\economy.png" alt="Travel" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Travel</p>
+    </a>
+
+    <a class="tab-link" href="cuisine.html">
+      <img src="css\icons\food.png" alt="Cuisines" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Cuisine</p>
+    </a>
+
+    <a class="tab-link" href="business.html">
+      <img src="css\icons\business.png" alt="Business" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Business</p>
+    </a>
+
+    <a class="tab-link" href="invest.html">
+      <img src="css\icons\invest.png" alt="Invest" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Invest</p>
+    </a>
+
+    <a class="tab-link" href="agriculture.html">
+      <img src="css\icons\agriculture.png" alt="Agriculture" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Agriculture</p>
+    </a>
+
+    <a class="tab-link" href="books.html">
+      <img src="css\icons\book.png" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Contacts</p>
+    </a>
+
+  </div>
+</div>
+
+<div id="content" class="content-fluid">
+    <div style="background-color: #1b1717;">
+        <div class="container pt-2 bg-#222831">
+
+            <div class="container pt-2 bg-#222831">
+                <div class="cover-layer">
+
+                    <!--
+                    <div class="music-posts">
+                        <div class="music-posts-container">
+                            <h5 style="text-decoration: underline; font-weight: bold;"></h5>
+                                <a href="">
+                                    <img class="main-image" src="css\images\">
+                                </a>
+                            <h5>Click the image to play</h5>
+                        </div>
+                    </div>
+                    <br>
+                    -->
+
+                    <div class="music-posts">
+                        <div class="music-posts-container">
+                            <h5 style="text-decoration: underline; font-weight: bold;">Soprano KIID ft JayWeez, x Pink</h5>
+                                <a href="https://audiomack.com/soprano-kiid/song/sex-flix">
+                                    <img class="main-image" src="css\images\soprano_sex_flix.png">
+                                </a>
+                            <h5>Click the image to play</h5>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="music-posts">
+                        <div class="music-posts-container">
+                            <h5 style="text-decoration: underline; font-weight: bold;">Soprano KIID</h5>
+                                <a href="https://audiomack.com/soprano-kiid/song/only-you">
+                                    <img class="main-image" src="css\images\soprano.png">
+                                </a>
+                            <h5>Click the image to play</h5>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="container pt-2" style="background-color: #810000; border-radius: 8px; color: white">
+                <div class="container pt-2">
+                  <h1>RnB music and more</h1>
+                  <h4> To have your posts on this site write an email to <a style="color: white;" href="mailto:scrapeweb@protonmail.com">scrapeweb@protonmail.com</a></h4>
+                  <hr style="border: 1px solid white;">
+                  <p>When writing an email:</p>
+                  <ul>
+                    <li>Include your company name and your full name </li>
+                    <li>Use your business category as the email subject.</li>
+                    <li>Clearly indicate your motive and keep the email short.</li>
+                    <li>Do not attach any link unless we have advised you to do so.</li>
+                    <li>Include your location (province and region).</li>
+                    <li>Include your clear face photo to prove your identity in case of company theft.</li>
+                    <li>Company headquarters location.</li>
+                    <li>Be professional!</li>
+                    <li>Your email could be ignored if you fail to follow the instructions above</li>
+                  </ul>
+                  <hr style="border: 1px solid white;">
+                  <p>To have your ads on this site, write a request mail to <a href="mailto:scrapeweb@protonmail.com">scrapeweb@protonmail.com</a> to receive ad price list </p>
+                  <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="mob-tab-foot">
+  <a  href="https://www.facebook.com/Scrape-101329678824424/?ref=pages_you_manage">
+    <img class="tab-mobile-footer-icons" alt="Facebook" src="css\icons\facebook.png" width="35" height="35">
+  </a>
+  <!-- Instagram -->
+  <a   href="https://www.instagram.com/scrapeweb1/">
+    <img class="tab-mobile-footer-icons" alt="Instagram" src="css\icons\instagram.png" width="35" height="35">
+  </a>
+  <!-- Twitter -->
+  <a href="https://twitter.com/Scrape_1">
+    <img class="tab-mobile-footer-icons" alt="Twitter" src="css\icons\twitter.png" width="35" height="35">
+  </a>
+  <!-- Youtube -->
+  <a href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+    <img class="tab-mobile-footer-icons" alt="YouTube" src="css\icons\youtube.png" width="35" height="35">
+  </a>
+  <!-- Mail -->
+  <a href="mailto:scrapeweb@protonmail.com">
+    <img class="tab-mobile-footer-icons" alt="Email" src="css\icons\mail.png" width="35" height="35">
+  </a>
+</div>
+<div align="center" class="footer-info">
+  <div class="container pt-4">
+  <p style="line-height: 1.7rem">
+    This page was made to promote national businesses and artists.
+    We believe small businesses in South African deserve more recognition and attention.
+    Scrape is a web center where South African businesses, artists and locations are promotes
+  <br>
+    <p>Scrape boundaries and expand.
+  <hr style="border: 0px solid maroon;">
+    <p>copyright:<a href="#">@Scrape_...</a></p>
+    <br>
+  </div>
+</div>
+
+<div id="desktop-footer">
+  <div id="desktop-footer-parts">
+    <div id="row1" align="center">
+      <ul id="footer-list1">
+        <a href="about.html">
+          <p style="color: white;">About</p>
+        </a>
+        <a>
+          <p style="color: white;">Service</p>
+        </a>
+        <a>
+          <p>Help</p>
+        </a>
+        <a href="books.html">
+          <p style="color: white;">Contacts</p>
+        </a>
+        <a href="hope.html">
+          <p style="color: white;">Hope</p>
+        </a>
+      </ul>
+    </div>
+    <div id="row2">
+      <ul id="footer-list2">
+        <a href="https://www.facebook.com/Scrape-101329678824424/?ref=pages_you_manage">
+          <img src="css\icons\facebook.png" alt="Facebook" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="https://www.instagram.com/scrapeweb1/">
+          <img src="css\icons\instagram.png" alt="Instagram" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="https://twitter.com/Scrape_1">
+          <img src="css\icons\twitter.png" alt="Twitter" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+          <img src="css\icons\youtube.png" alt="YouTube" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="mailto:scrapeweb@protonmail.com">
+          <img src="css\icons\mail.png" width="35" alt="Email" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+      </ul>
+    </div>
+    <div id="row3">
+      <div id="footer-list3" align="center">
+        <p style="line-height: 1.7rem">
+        This page was made to promote national businesses and artists.
+        We believe <br> small businesses in South African deserve more recognition and attention.<br>
+        Scrape is a web center where South African businesses, <br> artists and locations are promotes </p>
+        <br>
+          <p>Scrape boundaries and expand.</p>
+        <br>
+          <p>copyright:<a href="#">@Scrape_...</a></p>
+        <p id="count" style="color:#670009; float:left;">0</p>
+        <script>
+          const countEl = document.getElementById('count');
+
+          updateVisitCount();
+
+          function updateVisitCount() {
+              fetch('https://api.countapi.xyz/update/home/Shome/?amount=-1')
+              .then(res => res.json())
+              .then(res => {
+          	    countEl.innerHTML = res.value;
+              })
+          }
+          </script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="mobile-footer" class="page-footer font-small cyan darken-3">
+  <div class="row">
+    <div class="col-md-12 py-5" align="center">
+      <div id="a-tag" style="position: fixed; bottom: 0; background-color: maroon; ">
+        <!-- Facebook -->
+        <a style="padding-left: 20px; padding-right: 20px;" href="index.html">
+          <img src="css\icons\home1.png" alt="home" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205; border-radius: 10px;">
+        </a>
+        <!-- Youtube -->
+        <a style="padding-left: 20px; padding-right: 20px; " href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+          <img src="css\icons\youtube.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205; border-radius: 10px;">
+        </a>
+        <!-- Mail -->
+        <a style="padding-left: 20px; padding-right: 20px; " href="mailto:scrapeweb@protonmail.com">
+          <img src="css\icons\mail.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205; border-radius: 10px;">
+        </a>
+
+        <div id="mySidenav" class="sidenav" >
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <a class="nav-link" href="index.html" style="color: white;">Home
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="trending.html" style="color: white;">Sports
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="music.html" style="color: white;">Music
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="art.html" style="color: white;">Art
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="fashion.html" style="color: white;">Fashion
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="events.html" style="color: white;">Events
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="tourism.html" style="color: white;">Tourism
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="business.html" style="color: white;">Business
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="cuisine.html" style="color: white;">Cuisine
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="invest.html" style="color: white;">Invest
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="economy.html" style="color: white;">Travel
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="agriculture.html" style="color: white;">Agriculture
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="books.html" style="color: white;">Contacts
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="about.html" style="color: white;">About
+          </a>
+          <hr style="border-top: 2px solid white; width:50%; margin-left: auto; margin-left: auto;" align="center">
+
+        </div>
+
+        <span style="font-size:30px;cursor:pointer; padding: 0px 20px 0px 20px;" onclick="openNav()">
+          <img src="\css\icons\menu.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205;">
+        </span>
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav-tab").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav-tab").style.width = "0";
+        }
+        </script>
+
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+
