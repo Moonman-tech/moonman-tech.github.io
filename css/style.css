@@ -376,18 +376,21 @@ a {
 }
 #row1 {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #810000;
 }
 #footer-list1 {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    padding: 10px;
 }
 #footer-list1 a {
-    padding: 0px 35px 0px 35px;
-    box-shadow: 5px 5px 8px #4f0205;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    padding-top: 20px;
+    width: 100px;
+    box-shadow: 0px 5px 5px #4f0205;
+    border-radius: 15px;
 }
 #footer-list1 a:hover {
     border-style: solid;
@@ -395,19 +398,23 @@ a {
     background-color: #630000;
 }
 #row2 {
-    padding: 0px 50px 0px 50px;
+    width: 100%;
+    background-color: #810000;
 }
 #footer-list2 {
-    width: 60%;
     display: flex;
+    width: 30%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 #footer-list2 a {
-    padding: 10px 25px 10px 25px;
-    box-shadow: 5px 5px 8px #4f0205;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    padding-top: 20px;
+    box-shadow: 0px 5px 5px #4f0205;
+    border-radius: 15px;
 }
 #footer-list2 a:hover {
     border-style: solid;
@@ -433,15 +440,17 @@ a {
 #mob-tab-foot {
     background-color: #810000;
     width: 100%;
-    height: 60px;
     display: flex;
-    padding: 0px 0px 0px 0px;
-    align-items: center;
 }
 #mob-tab-foot a {
     box-shadow: 5px 5px 10px #4f0205;
-    padding: 5px 15px 5px 15px;
     border-radius: 8px;
+    padding: 10px 15px;
+}
+.mob-tab-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media only screen and (min-width:280px) {
     .menu-a {
@@ -451,12 +460,6 @@ a {
 @media only screen and (min-width:320px) {
     .about-icons a {
         padding: 0px 5px 0px 5px;
-    }
-    #mob-tab-foot {
-        padding: 0px 0px 0px 5px
-    }
-    #mob-tab-foot a {
-        padding: 5px 13px 5px 13px;
     }
 }
 @media only screen and (min-width:360px) {
@@ -468,31 +471,16 @@ a {
     .about-icons a {
         padding: 0px 9px 0px 9px;
     }
-    #mob-tab-foot a {
-        padding: 5px 17px 5px 17px;
-    }
-
 }
 @media only screen and (min-width:375px) {
     .about-icons a {
         padding: 0px 11px 0px 11px;
-    }
-    #mob-tab-foot a {
-        padding: 5px 20px 5px 20px;
     }
 }
 @media only screen and (min-width:411px) {
     .about-icons a {
         padding: 0px 14px 0px 14px;
     }
-    #mob-tab-foot {
-        padding: 5px 15px 5px 15px;
-    }
-    #mob-tab-foot a {
-        padding: 5px 20px 5px 20px;
-    }
-}
-@media only screen and (min-width:414px) {
 }
 @media only screen and (min-width:768px) {
     #logo {
@@ -547,14 +535,11 @@ a {
     .music-blocks {
         width: 50%;
     }
+    #mob-tab-foot a {
+        padding: 10px 50px;
+    }
     .footer-info {
         display: block;
-    }
-    #mob-tab-foot {
-        padding: 5px 40px 5px 40px;
-    }
-    #mob-tab-foot a {
-        padding: 5px 50px 5px 50px;
     }
     .mobile-footer {
         display: none;
@@ -621,24 +606,6 @@ a {
     .ad-posts img {
         width: 60%;
     }
-    #row1 {
-        width: 100%;
-    }
-    #footer-list1 {
-        padding: 15px 90px 15px 160px;
-    }
-    #footer-list1 a {
-        padding: 10px 45px 10px 45px;
-    }
-    #row2 {
-        padding: 10px 60px 10px 10px;
-    }
-    #footer-list2 {
-        padding: 15px 20px 15px 45px;
-    }
-    #footer-list2 a {
-        padding: 10px 35px 10px 35px;
-    }
     #row3 {
         padding: 0px 0px 0px 40px;
     }
@@ -653,25 +620,6 @@ a {
     .ad-posts {
         width: 60%;
     }
-    #row1 {
-        width: 100%;
-        padding: 0px 0px 0px 0px;
-    }
-    #footer-list1 {
-        padding: 20px 0px 20px 350px;
-    }
-    #footer-list1 a {
-        padding: 10px 45px 10px 45px;
-    }
-    #row2 {
-        padding: 10px 60px 10px 10px;
-    }
-    #footer-list2 {
-        padding: 15px 20px 15px 150px;
-    }
-    #footer-list2 a {
-        padding: 10px 35px 10px 35px;
-    }
     #row3 {
         padding: 0px 0px 0px 40px;
     }
@@ -682,25 +630,6 @@ a {
 @media only screen and (min-width:1440px) {
     .nav-icon {
         width: 45px;
-    }
-    #row1 {
-        width: 100%;
-        padding: 0px 0px 0px 0px;
-    }
-    #footer-list1 {
-        padding: 20px 0px 20px 370px;
-    }
-    #footer-list1 a {
-        padding: 10px 45px 10px 45px;
-    }
-    #row2 {
-        padding: 10px 60px 10px 10px;
-    }
-    #footer-list2 {
-        padding: 15px 20px 15px 160px;
-    }
-    #footer-list2 a {
-        padding: 10px 35px 10px 35px;
     }
     #row3 {
         padding: 0px 0px 0px 0px;
