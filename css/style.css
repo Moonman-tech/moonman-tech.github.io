@@ -18,7 +18,6 @@ a {
     position: fixed;
     left: 10px;
     bottom: 50%;
-    padding: 0px 0px 0px 0px;
     width:40px;
     height: 40px;
 }
@@ -37,7 +36,6 @@ a {
 .horizontal-menu {
     position: sticky;
     top: 0;
-    list-style-type: none;
     box-shadow: 5px 5px 8px #4f0205;
     background-color: #810000;
 }
@@ -45,21 +43,20 @@ a {
     display: block;
 }
 .container-menu {
-    padding: 0% 0% 0% 9%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .menu-list {
     display: inline-flex;
+    padding: 2% 1%;
 }
-.menu-a {
-    padding: 5px 15px;
+.menu-list a {
     color: #eeebdd;
-    width: 70%;
 }
 #best-menu {
     position: sticky;
     top: 0;
     display: flex;
-    padding: 5px 0px 0px 0px;
     box-shadow: 5px 5px 8px #4f0205;
     background-color: #810000;
     margin-left: auto;
@@ -106,7 +103,7 @@ a {
 }
 .logo-container {
     width: 100%;
-    height: 10%;
+    height: 5%;
     background-color: #810000;
 }
 .navbar a {
@@ -126,6 +123,7 @@ a {
 }
 .sidenav {
     height: 100%;
+    padding: 0px 0px;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -134,12 +132,10 @@ a {
     background-color:#810000;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px 0px 0px 0px;
     border-radius: 10px;
 }
 .sidenav a {
-    padding: 8px 8px 8px 5px;
-    text-decoration: none;
+    padding: 5px 5px 5px 5px;
     font-size: 25px;
     color: #818181;
     display: block;
@@ -153,19 +149,16 @@ a {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 #mySidenav-tab {
     background-color: #810000;
-
-    padding: 50px 0px 10px 0px;
-    width: 20%;
-
+    padding: 65px 0px 0px 0px;
 }
 #mySidenav-tab a {
-    padding: 10px 10px 10px 10px;
+    padding: 5px 10px;
     box-shadow: 5px 5px 8px #4f0205;
     border-radius: 10px;
 }
@@ -190,7 +183,7 @@ a {
     background-color: #810000;
     margin-left: auto;
     margin-right: auto;
-    height: 5%;
+    height: 6%;
     width: 100%;
 }
 #logo {
@@ -200,7 +193,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
 }
 .ad-posts {
     background-color: #eeebdd;
@@ -219,7 +212,7 @@ a {
 }
 .content-fluid {
     background-color: #1b1717;
-    padding: 10px 20px 0px 20px;
+    padding: 0% 5%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -229,7 +222,7 @@ a {
     border-bottom: 10px solid #810000;
     border-radius: 0px 0px 15px 15px;
     background-color: white;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -239,7 +232,7 @@ a {
     border-bottom: 10px solid #810000;
     border-radius: 0px 0px 15px 15px;
     background-color: white;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -253,7 +246,7 @@ a {
     border-bottom: 10px solid #810000;
     border-radius: 0px 0px 15px 15px;
     background-color: white;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -266,7 +259,7 @@ a {
 }
 .posts img {
     border-radius: 0px;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 5px 0px;
     width: 100%;
 }
 .cover-layer {
@@ -342,7 +335,7 @@ a {
 }
 .footer-info {
     position: sticky;
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 40px 0px;
     background-color:#810000;
     color: #eeebdd;
     width: 100%;
@@ -357,13 +350,25 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-#mobile-footer{
+.mobile-footer {
     background-color: #810000;
     position: fixed;
-    padding: 10px 5px 10px 5px;
-    height: 50px;
-    bottom: 5px;
-    margin:0;
+    bottom: 0px;
+}
+.row-items {
+    padding: 0px;
+    background-color: #810000;
+}
+.a-tag-container {
+    background-color: #810000;
+}
+.a-tag {
+    position: fixed;
+    bottom: 1.5%;
+}
+.a-tags {
+    padding: 6% 7%;
+    background-color: #810000;
 }
 #desktop-footer-parts {
     width: 100%;
@@ -417,10 +422,12 @@ a {
 }
 .a-text {
     color: #eeebdd;
-    padding: 0px 0px 0px 60px;
 }
-.tab-link {
-    padding-right: 20px;
+.aligner {
+    display: inline;
+}
+.img-tab {
+    box-shadow: 5px 5px 8px #4f0205;
 }
 #mob-tab-foot {
     background-color: #810000;
@@ -436,17 +443,11 @@ a {
     border-radius: 8px;
 }
 @media only screen and (min-width:280px) {
-    .container-menu {
-        padding: 0% 0% 0% 5%;
-    }
     .menu-a {
         padding: 5px 9px;
     }
 }
 @media only screen and (min-width:320px) {
-    .container-menu {
-        padding: 0% 0% 0% 11%;
-    }
     .about-icons a {
         padding: 0px 5px 0px 5px;
     }
@@ -458,9 +459,6 @@ a {
     }
 }
 @media only screen and (min-width:360px) {
-    .container-menu {
-        padding: 0% 0% 0% 9%;
-    }
     .menu-a {
         padding: 5px 15px;
         color: #eeebdd;
@@ -475,9 +473,6 @@ a {
 
 }
 @media only screen and (min-width:375px) {
-    .container-menu {
-        padding: 0% 0% 0% 10.5%;
-    }
     .posts p {
         font-size: 15px;
     }
@@ -489,9 +484,6 @@ a {
     }
 }
 @media only screen and (min-width:411px) {
-    .container-menu {
-        padding: 0% 0% 0% 12.5%;
-    }
     .about-icons a {
         padding: 0px 14px 0px 14px;
     }
@@ -503,18 +495,11 @@ a {
     }
 }
 @media only screen and (min-width:414px) {
-    .container-menu {
-        padding: 0% 0% 0% 14%;
-    }
     .posts p {
         font-size: 17px;
     }
 }
 @media only screen and (min-width:540px) {
-    .container-menu {
-        padding: 0% 0% 0% 20%;
-    }
-
 }
 @media only screen and (min-width:768px) {
     #logo {
@@ -537,9 +522,6 @@ a {
     #mySidenav-tab {
         padding: 100px 0px 140px 0px;
         height: 100%;
-    }
-    .container-menu {
-        padding: 0% 0% 0% 22%;
     }
     .menu-a {
         padding: 5px 30px;
@@ -572,9 +554,6 @@ a {
     .music-blocks {
         width: 50%;
     }
-    .content-fluid {
-        padding: 10px 60px 10px 60px;
-    }
     .footer-info {
         display: block;
     }
@@ -584,7 +563,7 @@ a {
     #mob-tab-foot a {
         padding: 5px 50px 5px 50px;
     }
-    #mobile-footer {
+    .mobile-footer {
         display: none;
     }
 }
