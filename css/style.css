@@ -53,10 +53,14 @@ a {
 .menu-list a {
     color: #eeebdd;
 }
+.best-icon-menu {
+    display: none;
+}
 #best-menu {
     position: sticky;
     top: 0;
-    display: flex;
+    display: none;
+    padding: 10px 0px 0px 0px;
     box-shadow: 5px 5px 8px #4f0205;
     background-color: #810000;
     margin-left: auto;
@@ -70,7 +74,7 @@ a {
     background-color: #810000;
 }
 .laptop-menu a {
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 .laptop-menu img {
     box-shadow: 5px 5px 8px #4f0205;
@@ -499,8 +503,6 @@ a {
         font-size: 17px;
     }
 }
-@media only screen and (min-width:540px) {
-}
 @media only screen and (min-width:768px) {
     #logo {
         width: 160px;
@@ -576,6 +578,12 @@ a {
     #logo {
         width: 170px;
         height: 50px;
+    }
+    .best-icon-menu {
+        display: block;
+    }
+    #best-menu {
+        display: flex;
     }
     .tab-menu-image {
         width:0px;
