@@ -255,9 +255,6 @@ a {
     margin-right: auto;
     width: 100%;
 }
-.posts p {
-    font-size: 12px;
-}
 .posts h4 {
     text-decoration: underline;
 }
@@ -265,6 +262,9 @@ a {
     border-radius: 0px;
     padding: 0px 0px 5px 0px;
     width: 100%;
+}
+.a-container {
+
 }
 .cover-layer {
     width: 100%;
@@ -331,9 +331,6 @@ a {
 .about-icons a {
     padding: 0px 10.5px 0px 10.5px;
 }
-.main-image {
-    width:;
-}
 .tab-menu {
     display: none;
 }
@@ -368,7 +365,7 @@ a {
 }
 .a-tag {
     position: fixed;
-    bottom: 1.5%;
+    bottom: 1.4%;
 }
 .a-tags {
     padding: 6% 7%;
@@ -477,9 +474,6 @@ a {
 
 }
 @media only screen and (min-width:375px) {
-    .posts p {
-        font-size: 15px;
-    }
     .about-icons a {
         padding: 0px 11px 0px 11px;
     }
@@ -499,9 +493,6 @@ a {
     }
 }
 @media only screen and (min-width:414px) {
-    .posts p {
-        font-size: 17px;
-    }
 }
 @media only screen and (min-width:768px) {
     #logo {
@@ -629,9 +620,6 @@ a {
     }
     .ad-posts img {
         width: 60%;
-    }
-    .posts p {
-        font-size: 20px;
     }
     #row1 {
         width: 100%;
