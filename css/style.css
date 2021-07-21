@@ -507,6 +507,7 @@ a {
     }
     .music-posts {
         width: 40%;
+        flex: 50%;
     }
     .story-div {
         box-shadow: 0 6px 4px -4px rgba(0,0,0,0.7);
