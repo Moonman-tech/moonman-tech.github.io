@@ -7,10 +7,17 @@ a {
 .hr-tag {
     border: 1px solid white;
 }
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
 #logo {
     display: block;
     height: 90%;
     width: 30%;
+    background-color: #3d3d3d;
 }
 .tab-menu-image {
     position: fixed;
@@ -35,7 +42,8 @@ a {
     position: sticky;
     top: 0;
     box-shadow: 5px 5px 8px #4f0205;
-    background-color: #810000;
+    background-color: #1b1717;
+    border-bottom: 2px solid #810000;
 }
 .menu-list {
     padding: 2% 5%;
@@ -53,30 +61,29 @@ a {
 #best-menu {
     position: sticky;
     top: 0;
-    background-color: #810000;
-    padding-bottom: 15px;
+    border-bottom: 2px solid #810000;
+    background-color: #1b1717;
+    padding-bottom: 10px;
     box-shadow: 5px 5px 8px #4f0205;
     display: none;
 }
 .laptop-menu {
     position: static;
-    padding-top: 10px;
+    padding-top: 8px;
     display: none;
     margin-left: auto;
     margin-right: auto;
 }
 .tab-link {
-    padding: 10px 10px;
+    padding: 5px 12px;
 }
 .laptop-menu img {
-    box-shadow: 5px 5px 8px #4f0205;
     border-radius: 5px;
     width: 40px;
+    padding: 2px;
 }
 .laptop-menu img:hover {
-    border-style: solid;
-    border-color: white;
-    background-color: #630000;
+    box-shadow: 0 0 5px white;
 }
 .drop-icons {
     width: 30%;
@@ -98,7 +105,7 @@ a {
 .logo-container {
     width: 100%;
     height: 5%;
-    background-color: #810000;
+    background-color: #1b1717;
 }
 .navbar a {
     text-family: arial;
@@ -161,15 +168,22 @@ a {
     background-color: #630000;
 }
 .story-div {
-    color:#141414;
+    color: white;
+    background-color: #212121;
     padding: 0% 2%;
     border-left: 5px solid #810000;
     border-right: 5px solid #810000;
-    box-shadow:  0;
+    box-shadow: 0;
 }
-
+.story-div a {
+    padding: 10px;
+}
+.story-div a:hover {
+    color: white;
+    text-shadow: 5px 5px 8px white;
+}
 .brand-container {
-    background-color: #810000;
+    background-color: #3d3d3d;
     margin-left: auto;
     margin-right: auto;
     height: 6%;
@@ -178,7 +192,7 @@ a {
 #logo {
     top:0;
     position: sticky;
-    background-color:#810000;
+    background-color: #1b1717;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -240,7 +254,7 @@ a {
     border-top: 10px solid #810000;
     border-bottom: 10px solid #810000;
     border-radius: 0px 0px 15px 15px;
-    background-color: white;
+    background-color: #3d3d3d;
     padding: 5px 15px;
     margin-left: auto;
     margin-right: auto;
@@ -271,7 +285,7 @@ a {
     border-bottom: 10px solid #181818;
     border-left: 5px solid #181818;
     border-right: 5px solid #181818;
-    background-color:white;
+    background-color: #3d3d3d;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -284,8 +298,12 @@ a {
     padding: 2px 0px;
     text-align: center;
 }
+.music-posts-container p {
+    color: white;
+}
 .music-posts-container img {
     width: 100%;
+    padding: 5px 0px;
     box-shadow: 7px 5px 5px -3px rgba(92,92,92,0.4), 0px 5px 10px rgba(92,92,92,0.6), -7px 5px 5px -3px rgba(92,92,92,0.4);
 }
 .posts-container {
@@ -334,33 +352,36 @@ a {
     text-align: center;
 }
 .desktop-footer {
+    padding: 20px 0px;
     position: static;
     bottom: 0;
-    background-color:#810000;
+    background-color: #1b1717;
     color: #eeebdd;
     display: none;
     margin-left: auto;
     margin-right: auto;
 }
 .mobile-footer {
-    background-color: #810000;
+    background-color: #1b1717;
     position: fixed;
     bottom: 0px;
 }
 .row-items {
     padding: 0px;
-    background-color: #810000;
+    background-color: #1b1717;
 }
 .a-tag-container {
-    background-color: #810000;
+    background-color: #1b1717;
+
 }
 .a-tag {
     position: fixed;
-    bottom: 1.4%;
+    bottom: 0.9%;
 }
 .a-tags {
-    padding: 6% 7%;
-    background-color: #810000;
+    border-top: 3px solid #810000;
+    padding: 5% 7%;
+    background-color: #1b1717;
 }
 .desktop-footer-parts {
     width: 100%;
@@ -368,7 +389,7 @@ a {
 }
 .row1 {
     width: 100%;
-    background-color: #810000;
+    background-color: #1b1717;
 }
 #footer-list1 {
     display: flex;
@@ -381,17 +402,17 @@ a {
     padding: 10px 15px;
     padding-top: 20px;
     width: 100px;
-    box-shadow: 0px 5px 5px #4f0205;
+    box-shadow: 0 0 5px #810000;
     border-radius: 15px;
 }
 #footer-list1 a:hover {
-    border-style: solid;
-    border-color: white;
-    background-color: #630000;
+    color: white;
+    box-shadow: 0 0 5px white;
 }
 #row2 {
     width: 100%;
-    background-color: #810000;
+    background-color: #1b1717;
+    padding-top: 10px;
 }
 #footer-list2 {
     display: flex;
@@ -404,14 +425,11 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 15px;
-    padding-top: 20px;
-    box-shadow: 0px 5px 5px #4f0205;
+    padding-top: 10px;
     border-radius: 15px;
 }
 #footer-list2 a:hover {
-    border-style: solid;
-    border-color: white;
-    background-color: #630000;
+    box-shadow: 0 0 5px white;
 }
 #row3 {
     width: 100%;
@@ -430,7 +448,7 @@ a {
     box-shadow: 5px 5px 8px #4f0205;
 }
 #mob-tab-foot {
-    background-color: #810000;
+    background-color: #1b1717;
     width: 100%;
     display: flex;
     padding: 5px 0px;
@@ -529,7 +547,6 @@ a {
     .logo-container {
         width: 100%;
         height: 50px;
-        background-color: #810000;
     }
     #logo {
         width: 170px;
@@ -618,15 +635,5 @@ a {
         padding: 10px 0px 10px 0px;
     }
 
-}
-@media only screen and (min-width:1920px) {
-    .nav-icon {
-
-    }
-}
-@media only screen and (min-width:2160px) {
-    .nav-icon {
-
-    }
 }
 
