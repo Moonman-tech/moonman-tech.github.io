@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06509fe-6a03-4678-91a3-aaa26d484455" name="Default Changelist" comment="First version" />
+    <list default="true" id="c06509fe-6a03-4678-91a3-aaa26d484455" name="Default Changelist" comment="First version">
+      <change afterPath="$PROJECT_DIR$/css/images/marbles.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agriculture.html" beforeDir="false" afterPath="$PROJECT_DIR$/agriculture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/art.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/icons/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/icons/book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cuisine.html" beforeDir="false" afterPath="$PROJECT_DIR$/cuisine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/culture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easternc.html" beforeDir="false" afterPath="$PROJECT_DIR$/easternc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/economy.html" beforeDir="false" afterPath="$PROJECT_DIR$/economy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion.html" beforeDir="false" afterPath="$PROJECT_DIR$/fashion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frees.html" beforeDir="false" afterPath="$PROJECT_DIR$/frees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gautengp.html" beforeDir="false" afterPath="$PROJECT_DIR$/gautengp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiphop.html" beforeDir="false" afterPath="$PROJECT_DIR$/hiphop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hope.html" beforeDir="false" afterPath="$PROJECT_DIR$/hope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house.html" beforeDir="false" afterPath="$PROJECT_DIR$/house.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invest.html" beforeDir="false" afterPath="$PROJECT_DIR$/invest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/jazz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwazulun.html" beforeDir="false" afterPath="$PROJECT_DIR$/kwazulun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limpopop.html" beforeDir="false" afterPath="$PROJECT_DIR$/limpopop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpumalangap.html" beforeDir="false" afterPath="$PROJECT_DIR$/mpumalangap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/northernc.html" beforeDir="false" afterPath="$PROJECT_DIR$/northernc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/northw.html" beforeDir="false" afterPath="$PROJECT_DIR$/northw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/popular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnb.html" beforeDir="false" afterPath="$PROJECT_DIR$/rnb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top half.html" beforeDir="false" afterPath="$PROJECT_DIR$/marble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tourism.html" beforeDir="false" afterPath="$PROJECT_DIR$/tourism.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trending.html" beforeDir="false" afterPath="$PROJECT_DIR$/trending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/westernc.html" beforeDir="false" afterPath="$PROJECT_DIR$/westernc.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +75,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\thaba\OneDrive\Documents\GitHub\scrape" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thaba\OneDrive\Documents\GitHub\moonman-tech.github.io" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,6 +89,9 @@
       <updated>1626636130806</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

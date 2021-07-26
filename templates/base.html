@@ -1,0 +1,377 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+
+
+</style>
+<body>
+
+<div class="logo-container">
+  <a class="brand-container" href="{{ url_for('home') }}">
+    <img src="static\icons\logo.png" id="logo">
+  </a>
+</div>
+
+<ul class="horizontal-menu">
+  <div class="container-menu">
+    <a class="tab-menu" style="cursor:pointer" onclick="openNav()">
+      <img class="tab-menu-image" src="static\icons\sidemenu.png">
+    </a>
+    <li class="menu-list"><a class="menu-a" href="{{ url_for('contacts') }}">Connect</a></li>
+    <li class="menu-list"><a class="menu-a" href="{{ url_for('hope') }}">Hope</a></li>
+    <li class="menu-list"><a class="menu-a" href="#">Help</a></li>
+    <li class="menu-list"><a class="menu-a" href="{{ url_for('about') }}">About</a></li>
+  </div>
+</ul>
+
+<div id="best-menu">
+  <ul class="laptop-menu">
+    <ul id="best-icon-menu">
+      <a class="tab-link" href="{{ url_for('home') }}">
+        <img class="nav-icon" src="static\icons\home1.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('sports') }}">
+        <img class="nav-icon" src="static\icons\trending1.png"> <!--width="30" height="30"-->
+      </a>
+
+      <a class="tab-link" href="{{ url_for('music') }}">
+        <img class="nav-icon" src="static\icons\music.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('art') }}">
+        <img class="nav-icon" src="static\icons\art1.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('fashion') }}">
+        <img class="nav-icon" src="static\icons\fashion1.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('events') }}">
+        <img class="nav-icon" src="static\icons\events.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('tourism') }}">
+        <img class="nav-icon" src="static\icons\tourism.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('travel') }}">
+        <img class="nav-icon" src="static\icons\economy.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('cuisine') }}">
+        <img class="nav-icon" src="static\icons\food.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('business') }}">
+        <img class="nav-icon" src="static\icons\business.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('invest') }}">
+        <img class="nav-icon" src="static\icons\invest.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('agriculture') }}">
+        <img class="nav-icon" src="static\icons\agriculture.png">
+      </a>
+
+      <a class="tab-link" href="{{ url_for('contacts') }}">
+        <img class="nav-icon" src="static\icons\book.png">
+      </a>
+    </ul>
+  </ul>
+</div>
+
+
+
+<div>
+  <div id="mySidenav-tab" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="tab-link" href="{{ url_for('home') }}">
+      <img src="static\icons\home1.png" alt="Home" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Home</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('sports') }}">
+      <img src="static\icons\trending1.png" alt="Sports" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Sports</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('music') }}">
+      <img src="static\icons\music.png" alt="Music" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Music</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('art') }}">
+      <img src="static\icons\art1.png" alt="Art" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Art</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('fashion') }}">
+      <img src="static\icons\fashion1.png" alt="Fashion" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Fashion</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('events') }}">
+      <img src="static\icons\events.png" alt="Events" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Events</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('tourism') }}">
+      <img src="static\icons\tourism.png" alt="Tourism" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Tourism</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('travel') }}">
+      <img src="static\icons\economy.png" alt="Travel" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Travel</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('cuisine') }}">
+      <img src="static\icons\food.png" alt="Cuisines" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Cuisine</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('business') }}">
+      <img src="static\icons\business.png" alt="Business" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Business</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('invest') }}">
+      <img src="static\icons\invest.png" alt="Invest" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Invest</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('agriculture') }}">
+      <img src="static\icons\agriculture.png" alt="Agriculture" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Agriculture</p>
+    </a>
+    <a class="tab-link" href="{{ url_for('contacts') }}">
+      <img src="static\icons\book.png" width="30" height="30" style="box-shadow: 5px 5px 8px #4f0205;">
+      <p class="a-text">Contacts</p>
+    </a>
+  </div>
+</div>
+
+<div id="content" class="content-fluid">
+  <div style="background-color: #1b1717;">
+    {% block content %}
+    {% endblock %}
+  </div>
+</div>
+
+<div id="mob-tab-foot">
+  <a  href="https://www.facebook.com/Scrape-101329678824424/?ref=pages_you_manage">
+    <img class="tab-mobile-footer-icons" alt="Facebook" src="static\icons\facebook.png" width="35" height="35">
+  </a>
+  <!-- Instagram -->
+  <a   href="https://www.instagram.com/scrapeweb1/">
+    <img class="tab-mobile-footer-icons" alt="Instagram" src="static\icons\instagram.png" width="35" height="35">
+  </a>
+  <!-- Twitter -->
+  <a href="https://twitter.com/Scrape_1">
+    <img class="tab-mobile-footer-icons" alt="Twitter" src="static\icons\twitter.png" width="35" height="35">
+  </a>
+  <!-- Youtube -->
+  <a href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+    <img class="tab-mobile-footer-icons" alt="YouTube" src="static\icons\youtube.png" width="35" height="35">
+  </a>
+  <!-- Mail -->
+  <a href="mailto:scrapeweb@protonmail.com">
+    <img class="tab-mobile-footer-icons" alt="Email" src="static\icons\mail.png" width="35" height="35">
+  </a>
+</div>
+<div align="center" class="footer-info">
+  <div class="container pt-4">
+  <p style="line-height: 1.7rem">
+    This page was made to promote national businesses and artists.
+    We believe small businesses in South African deserve more recognition and attention.
+    Scrape is a web center where South African businesses, artists and locations are promotes
+  <br>
+    <p>Scrape boundaries and expand.
+  <hr style="border: 0px solid maroon;">
+    <p>copyright:<a href="#">@Scrape_...</a></p>
+    <br>
+  </div>
+</div>
+
+<div id="desktop-footer">
+  <div id="desktop-footer-parts">
+    <div id="row1" align="center">
+      <ul id="footer-list1">
+        <a href="{{ url_for('about') }}">
+          <p style="color: white;">About</p>
+        </a>
+        <a>
+          <p style="color: white;">Service</p>
+        </a>
+        <a>
+          <p>Help</p>
+        </a>
+        <a href="{{ url_for('contacts') }}">
+          <p style="color: white;">Contacts</p>
+        </a>
+        <a href="{{ url_for('hope') }}">
+          <p style="color: white;">Hope</p>
+        </a>
+      </ul>
+    </div>
+    <div id="row2">
+      <ul id="footer-list2">
+        <a href="https://www.facebook.com/Scrape-101329678824424/?ref=pages_you_manage">
+          <img src="static\icons\facebook.png" alt="Facebook" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="https://www.instagram.com/scrapeweb1/">
+          <img src="static\icons\instagram.png" alt="Instagram" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="https://twitter.com/Scrape_1">
+          <img src="static\icons\twitter.png" alt="Twitter" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+          <img src="static\icons\youtube.png" alt="YouTube" width="35" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+        <a href="mailto:scrapeweb@protonmail.com">
+          <img src="static\icons\mail.png" width="35" alt="Email" height="35" style="box-shadow: 5px 5px 8px #4f0205;">
+        </a>
+      </ul>
+    </div>
+    <div id="row3">
+      <div id="footer-list3" align="center">
+        <p style="line-height: 1.7rem">
+        This page was made to promote national businesses and artists.
+        We believe <br> small businesses in South African deserve more recognition and attention.<br>
+        Scrape is a web center where South African businesses, <br> artists and locations are promotes </p>
+        <br>
+          <p>Scrape boundaries and expand.</p>
+        <br>
+          <p>copyright:<a href="#">@Scrape_...</a></p>
+        <p id="count" style="color:#670009; float:left;">0</p>
+        <script>
+          const countEl = document.getElementById('count');
+
+          updateVisitCount();
+
+          function updateVisitCount() {
+              fetch('https://api.countapi.xyz/update/home/Shome/?amount=- 1')
+              .then(res => res.json())
+              .then(res => {
+          	    countEl.innerHTML = res.value;
+              })
+          }
+          </script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="mobile-footer" class="page-footer font-small cyan darken-3">
+  <div class="row">
+    <div class="col-md-12 py-5" align="center">
+      <div id="a-tag" style="position: fixed; bottom: 0; background-color: maroon; ">
+        <!-- Facebook -->
+        <a style="padding-left: 20px; padding-right: 20px;" href="{{ url_for('home') }}">
+          <img src="static\icons\home1.png" alt="home" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205; border-radius: 10px;">
+        </a>
+        <!-- Youtube -->
+        <a style="padding-left: 20px; padding-right: 20px; " href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+          <img src="static\icons\youtube.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205; border-radius: 10px;">
+        </a>
+        <!-- Mail -->
+        <a style="padding-left: 20px; padding-right: 20px; " href="mailto:scrapeweb@protonmail.com">
+          <img src="static\icons\mail.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205; border-radius: 10px;">
+        </a>
+
+        <div id="mySidenav" class="sidenav" >
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <a class="nav-link" href="{{ url_for('home') }}" style="color: white;">Home
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('sports') }}" style="color: white;">Sports
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('music') }}" style="color: white;">Music
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('art') }}" style="color: white;">Art
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('fashion') }}" style="color: white;">Fashion
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('events') }}" style="color: white;">Events
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('tourism') }}" style="color: white;">Tourism
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('business') }}" style="color: white;">Business
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('cuisine') }}" style="color: white;">Cuisine
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('invest') }}" style="color: white;">Invest
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('travel') }}" style="color: white;">Travel
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('agriculture') }}" style="color: white;">Agriculture
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('contacts') }}" style="color: white;">Contacts
+          </a>
+          <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+          <a class="nav-link" href="{{ url_for('about') }}" style="color: white;">About
+          </a>
+          <hr style="border-top: 2px solid white; width:50%; margin-left: auto; margin-left: auto;" align="center">
+
+        </div>
+
+        <span style="font-size:30px;cursor:pointer; padding: 0px 20px 0px 20px;" onclick="openNav()">
+          <img src="\static\icons\menu.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #4f0205;">
+        </span>
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav-tab").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav-tab").style.width = "0";
+        }
+        </script>
+
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

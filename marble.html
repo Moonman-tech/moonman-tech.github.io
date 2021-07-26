@@ -1,0 +1,546 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<body>
+
+<div class="logo-container">
+    <a class="brand-container" href="#">
+        <img src="css\icons\logo.png" id="logo">
+    </a>
+</div>
+
+<div class="horizontal-menu">
+    <div class="container-menu">
+        <div align="center">
+            <div class="tab-menu" style="cursor:pointer" onclick="openNav()">
+              <img class="tab-menu-image" src="css\icons\sidemenu.png">
+            </div>
+            <div class="menu-list"><a class="menu-a" href="books.html">Connect</a></div>
+            <div class="menu-list"><a class="menu-a" href="hope.html">Hope</a></div>
+            <div class="menu-list"><a class="menu-a" href="#">Help</a></div>
+            <div class="menu-list"><a class="menu-a" href="about.html">About</a></div>
+        </div>
+    </div>
+</div>
+
+<div id="best-menu">
+    <div class="laptop-menu" align="center">
+        <div class="best-icon-menu">
+
+            <a class="tab-link" href="index.html">
+                <img class="nav-icon" src="css\icons\home1.png">
+            </a>
+
+            <a class="tab-link" href="trending.html">
+                <img class="nav-icon" src="css\icons\trending1.png"> <!--width="30" height="30"-->
+            </a>
+
+            <a class="tab-link" href="music.html">
+                <img class="nav-icon" src="css\icons\music.png">
+            </a>
+
+            <a class="tab-link" href="art.html">
+                <img class="nav-icon" src="css\icons\art1.png">
+            </a>
+
+            <a class="tab-link" href="fashion.html">
+                <img class="nav-icon" src="css\icons\fashion1.png">
+            </a>
+
+            <a class="tab-link" href="events.html">
+                <img class="nav-icon" src="css\icons\events.png">
+            </a>
+
+            <a class="tab-link" href="tourism.html">
+                <img class="nav-icon" src="css\icons\tourism.png">
+            </a>
+
+            <a class="tab-link" href="economy.html">
+                <img class="nav-icon" src="css\icons\economy.png">
+            </a>
+
+            <a class="tab-link" href="cuisine.html">
+                <img class="nav-icon" src="css\icons\food.png">
+            </a>
+
+            <a class="tab-link" href="business.html">
+                <img class="nav-icon" src="css\icons\business.png">
+            </a>
+
+            <a class="tab-link" href="invest.html">
+                <img class="nav-icon" src="css\icons\invest.png">
+            </a>
+
+            <a class="tab-link" href="agriculture.html">
+                <img class="nav-icon" src="css\icons\agriculture.png">
+            </a>
+
+            <a class="tab-link" href="books.html">
+                <img class="nav-icon" src="css\icons\book.png">
+            </a>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="sidenav-cont">
+    <div id="mySidenav-tab" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <a class="tab-link" href="index.html" >
+            <div align="center" class="aligner">
+                <img src="css\icons\home1.png" alt="Home" width="30" height="30" class="img-tab">
+                <p class="a-text">Home</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="trending.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\trending1.png" alt="Sports" width="30" height="30" class="img-tab">
+                <p class="a-text">Sports</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="music.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\music.png" alt="Music" width="30" height="30" class="img-tab">
+                <p class="a-text">Music</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="art.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\art1.png" alt="Art" width="30" height="30" class="img-tab">
+                <p class="a-text">Art</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="fashion.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\fashion1.png" alt="Fashion" width="30" height="30" class="img-tab">
+                <p class="a-text">Fashion</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="events.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\events.png" alt="Events" width="30" height="30" class="img-tab">
+                <p class="a-text">Events</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="tourism.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\tourism.png" alt="Tourism" width="30" height="30" class="img-tab">
+                <p class="a-text">Tourism</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="economy.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\economy.png" alt="Travel" width="30" height="30" class="img-tab">
+                <p class="a-text">Travel</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="cuisine.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\food.png" alt="Cuisines" width="30" height="30" class="img-tab">
+                <p class="a-text">Cuisine</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="business.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\business.png" alt="Business" width="30" height="30" class="img-tab">
+                <p class="a-text">Business</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="invest.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\invest.png" alt="Invest" width="30" height="30" class="img-tab">
+                <p class="a-text">Invest</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="agriculture.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\agriculture.png" alt="Agriculture" width="30" height="30" class="img-tab">
+                <p class="a-text">Agriculture</p>
+            </div>
+        </a>
+
+        <a class="tab-link" href="books.html">
+            <div align="center" class="aligner">
+                <img src="css\icons\book.png" width="30" height="30" class="img-tab">
+                <p class="a-text">Gaming</p>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+<div id="content" class="content-fluid">
+    <div class="content-cover">
+    <br>
+
+        <div class="a-container bg-#222831">
+
+            <div style="background-color: #242526; border-radius: 10px; padding: 5px 15px; padding-bottom: 15px; ">
+                <div style="color: white; text-align: justify; ">
+                    <h3> Marble Racing Guide:</h3>
+                    <h4>Points:</h4>
+                        <div>
+                            <ol>Number 1 = 5 points</ol>
+                            <ol>Number 2 = 3 points</ol>
+                            <ol>Number 3 = 2.5 points</ol>
+                            <ol>Number 4 = 2 points</ol>
+                            <ol>Number 5 = 1 points</ol>
+                            <ol>Number 6 ≥ = 0.5 points</ol>
+                        </div>
+                    <p>Coming after number five is recorded as a loss even though a player will gain half a point.</p>
+                </div>
+            </div>
+            <br>
+
+            <div style="background-color: #242526; border-radius: 10px; padding: 5px 15px; padding-bottom: 15px; ">
+                <h3 style="color: white; padding-bottom: 5px;">League 1</h3>
+                <table align="center">
+
+                    <tr align="center">
+                        <th>POS</th>
+                        <th>NAME</th>
+                        <th>P</th>
+                        <th>L</th>
+                        <th>PTS</th>
+                    </tr>
+
+                    <tr align="center">
+                        <td>1</td>
+                        <td>Blue Moon</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>22.5</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>2</td>
+                        <td>Rolling Rock</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>22</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>3</td>
+                        <td>Iron Ball</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>4</td>
+                        <td>Quick Iron</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>15.5</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>5</td>
+                        <td>White Wolf</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>13.5</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>6</td>
+                        <td>Round Rider</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>12.5</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>7</td>
+                        <td>Tumbling Star</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>11.5</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>8</td>
+                        <td>Blue Rock</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>11</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>9</td>
+                        <td>Milky Ball</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>9.5</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>10</td>
+                        <td>Fast Galaxy</td>
+                        <td>8</td>
+                        <td>5</td>
+                        <td>9</td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+
+    <br>
+    </div>
+</div>
+
+<div id="mob-tab-foot">
+    <div class="mob-tab-container">
+        <a  href="https://www.facebook.com/Scrape-101329678824424/?ref=pages_you_manage">
+            <img class="tab-mobile-footer-icons" alt="Facebook" src="css\icons\facebook.png" width="35" height="35">
+        </a>
+
+        <!-- Instagram -->
+        <a   href="https://www.instagram.com/scrapeweb1/">
+            <img class="tab-mobile-footer-icons" alt="Instagram" src="css\icons\instagram.png" width="35" height="35">
+        </a>
+
+        <!-- Twitter -->
+        <a href="https://twitter.com/Scrape_1">
+            <img class="tab-mobile-footer-icons" alt="Twitter" src="css\icons\twitter.png" width="35" height="35">
+        </a>
+
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+            <img class="tab-mobile-footer-icons" alt="YouTube" src="css\icons\youtube.png" width="35" height="35">
+        </a>
+
+        <!-- Mail -->
+        <a href="mailto:scrapeweb@protonmail.com">
+            <img class="tab-mobile-footer-icons" alt="Email" src="css\icons\mail.png" width="35" height="35">
+        </a>
+    </div>
+</div>
+
+<div align="center" class="footer-info" style="background-color: #242526; border-top: 1px solid grey;">
+    <div class="container">
+        <p style="background-color: #242526">
+            This page was made to promote national businesses and artists.
+            We believe small businesses in South African deserve more recognition and attention.
+            Scrape is a web center where South African businesses, artists and locations are promotes
+        <br>
+        <p>Scrape boundaries and expand.
+        <hr style="border: 0px solid grey;">
+        <p>copyright:<a href="#">@Scrape_...</a></p>
+        <br>
+    </div>
+</div>
+
+<div class="desktop-footer">
+    <div class="desktop-footer-parts">
+        <div class="row1" align="center">
+            <div id="footer-list1">
+
+                <a href="about.html">
+                    <p class="footer-text">About</p>
+                </a>
+
+                <a>
+                    <p class="footer-text">Service</p>
+                </a>
+
+                <a>
+                    <p class="footer-text">Help</p>
+                </a>
+
+                <a href="books.html">
+                    <p class="footer-text">Gaming</p>
+                </a>
+
+                <a href="hope.html">
+                    <p class="footer-text">Hope</p>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="row2">
+            <ul id="footer-list2">
+
+                <a href="https://www.facebook.com/Scrape-101329678824424/?ref=pages_you_manage">
+                    <img src="css\icons\facebook.png" alt="Facebook" width="35" height="35" align="center">
+                </a>
+
+                <a href="https://www.instagram.com/scrapeweb1/">
+                    <img src="css\icons\instagram.png" alt="Instagram" width="35" height="35">
+                </a>
+
+                <a href="https://twitter.com/Scrape_1">
+                    <img src="css\icons\twitter.png" alt="Twitter" width="35" height="35">
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+                    <img src="css\icons\youtube.png" alt="YouTube" width="35" height="35">
+                </a>
+
+                <a href="mailto:scrapeweb@protonmail.com">
+                    <img src="css\icons\mail.png" width="35" alt="Email" height="35">
+                </a>
+
+            </ul>
+        </div>
+
+        <div id="row3">
+            <div id="footer-list3" align="center">
+                <p style="text-align: justify; width: 70%;">
+                    This page was made to promote national businesses and artists.
+                    We believe small businesses in South African deserve more recognition and attention.
+                    Scrape is a web center where South African businesses, artists and locations are promotes </p>
+                    <br>
+                <p>Scrape boundaries and expand.</p>
+                <br>
+                <p>copyright:<a href="#">@Scrape_...</a></p>
+                <p id="count" style="color:#670009; float:left;">0</p>
+
+                <script>
+                    const countEl = document.getElementById('count');
+
+                    updateVisitCount();
+
+                    function updateVisitCount() {
+                        fetch('https://api.countapi.xyz/update/home/Shome/?amount=1')
+                        .then(res => res.json())
+                        .then(res => {
+                          countEl.innerHTML = res.value;
+                        })
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="mobile-footer">
+    <div class="row-items">
+        <div class="a-tag-container" align="center">
+            <div class="a-tag">
+
+            <!-- Facebook -->
+            <a class="a-tags" href="index.html">
+                <img src="css\icons\home1.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #18191a; border-radius: 10px;">
+            </a>
+
+            <!-- Youtube -->
+            <a class="a-tags" href="https://www.youtube.com/channel/UCu-FE8zIL1pxqrQLnwlqd5w">
+                <img src="css\icons\youtube.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #18191a; border-radius: 10px;">
+            </a>
+
+            <!-- Mail -->
+            <a class="a-tags" href="mailto:scrapeweb@protonmail.com">
+                <img src="css\icons\mail.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #18191a; border-radius: 10px;">
+            </a>
+
+            <a class="a-tags" onclick="openNav()">
+                <img src="css\icons\menu.png" width="10%" height="10%" style="box-shadow: 5px 5px 8px #18191a; border-radius: 10px;">
+            </a>
+
+
+            <div id="mySidenav" class="sidenav" >
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <a class="nav-link" href="index.html" style="color: white;">Home</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="trending.html" style="color: white;">Sports</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="music.html" style="color: white;">Music</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="art.html" style="color: white;">Art</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="fashion.html" style="color: white;">Fashion</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="events.html" style="color: white;">Events</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="tourism.html" style="color: white;">Tourism</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="business.html" style="color: white;">Business</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="cuisine.html" style="color: white;">Cuisine</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="invest.html" style="color: white;">Invest</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="economy.html" style="color: white;">Travel</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="agriculture.html" style="color: white;">Agriculture</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="books.html" style="color: white;">Gaming</a>
+                <hr style="border-top: 2px solid white; width:50%;" align="center">
+
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+                <hr style="border-top: 2px solid white; width:50%; margin-left: auto; margin-left: auto;" align="center">
+
+            </div>
+
+            <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+
+            <script>
+                function openNav() {
+                  document.getElementById("mySidenav-tab").style.width = "250px";
+                }
+
+                function closeNav() {
+                  document.getElementById("mySidenav-tab").style.width = "0";
+                }
+            </script>
+
+          </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

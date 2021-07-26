@@ -13,11 +13,31 @@ h4 {
 h5 {
     color: white;
 }
+table {
+    color: white;
+    width: 100%;
+}
+table tr {
+    border-style: solid;
+    border-color: #18191a;
+    padding: 5px 0px;
+}
+table th {
+    text-decoration: underline;
+    border-style: solid;
+    border-color: #18191a;
+}
+table td {
+    border-style: solid;
+    border-color: #18191a;
+}
+
 #logo {
     display: block;
     height: 90%;
     width: 30%;
-    background-color: #3d3d3d;
+    background-color: #242526;
+
 }
 .tab-menu-image {
     position: fixed;
@@ -41,9 +61,9 @@ h5 {
 .horizontal-menu {
     position: sticky;
     top: 0;
-    box-shadow: 5px 5px 8px #4f0205;
-    background-color: #1b1717;
-    border-bottom: 2px solid #810000;
+    box-shadow: 5px 5px 8px black;
+    background-color: #242526;
+    border-bottom: 1px solid grey;
 }
 .menu-list {
     padding: 2% 5%;
@@ -61,10 +81,10 @@ h5 {
 #best-menu {
     position: sticky;
     top: 0;
-    border-bottom: 2px solid #810000;
-    background-color: #1b1717;
+    border-bottom: 2px solid grey;
+    background-color: #242526;
     padding-bottom: 10px;
-    box-shadow: 5px 5px 8px #4f0205;
+    box-shadow: 5px 5px 8px #18191a;
     display: none;
 }
 .laptop-menu {
@@ -105,7 +125,8 @@ h5 {
 .logo-container {
     width: 100%;
     height: 5%;
-    background-color: #1b1717;
+    background-color: #242526;
+    border-bottom: 1px solid grey;
 }
 .navbar a {
     text-family: arial;
@@ -123,13 +144,12 @@ h5 {
 }
 .sidenav {
     height: 100%;
-    padding: 0px 0px;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:#810000;
+    background-color: #242526;
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 10px;
@@ -144,7 +164,7 @@ h5 {
 .sidenav a:hover {
     border-style: solid;
     border-color: white;
-    background-color: #630000;
+    background-color: #18191a;
 }
 .sidenav .closebtn {
     position: absolute;
@@ -154,22 +174,24 @@ h5 {
     margin-left: 0px;
 }
 #mySidenav-tab {
-    background-color: #810000;
-    padding: 65px 0px 0px 0px;
+    background-color: #242526;
+    padding: 60px 0px 0px 0px;
 }
 #mySidenav-tab a {
     padding: 5px 10px;
-    box-shadow: 5px 5px 8px #4f0205;
+    box-shadow: 5px 5px 5px #18191a;
+    border-right: 5px solid #18191a;
     border-radius: 10px;
 }
 .navbar a:hover {
     border-style: solid;
     border-color: white;
     background-color: #630000;
+    color: white;
 }
 .story-div {
     color: white;
-    background-color: #212121;
+    background-color: #18191a;
     padding: 0% 2%;
     border-left: 5px solid #810000;
     border-right: 5px solid #810000;
@@ -183,7 +205,7 @@ h5 {
     text-shadow: 5px 5px 8px white;
 }
 .brand-container {
-    background-color: #3d3d3d;
+    background-color: #242526;
     margin-left: auto;
     margin-right: auto;
     height: 6%;
@@ -192,7 +214,7 @@ h5 {
 #logo {
     top:0;
     position: sticky;
-    background-color: #1b1717;
+    background-color: #242526;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -214,14 +236,14 @@ h5 {
     font-size: 12px;
 }
 .content-fluid {
-    background-color: #1b1717;
+    background-color: #18191a;
     padding: 0% 5%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 .content-cover {
-    background-color: #1b1717;
+    background-color: #18191a;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -252,9 +274,8 @@ h5 {
 }
 .posts {
     border-top: 10px solid #810000;
-    border-bottom: 10px solid #810000;
     border-radius: 0px 0px 15px 15px;
-    background-color: #3d3d3d;
+    background-color: #242526;
     padding: 5px 15px;
     margin-left: auto;
     margin-right: auto;
@@ -268,8 +289,18 @@ h5 {
     padding: 0px 0px 5px 0px;
     width: 100%;
 }
-.a-container {
-
+.league-container {
+    color: white;
+    background-color: #18191a;
+    padding-bottom: 5px;
+}
+.league-container:hover {
+    color: white;
+    background-color: #18191a;
+}
+.leagues {
+    width: 100%;
+    padding-bottom: 20px;
 }
 .cover-layer {
     width: 100%;
@@ -285,7 +316,7 @@ h5 {
     border-bottom: 10px solid #181818;
     border-left: 5px solid #181818;
     border-right: 5px solid #181818;
-    background-color: #3d3d3d;
+    background-color: #242526;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -304,12 +335,12 @@ h5 {
 .music-posts-container img {
     width: 100%;
     padding: 5px 0px;
-    box-shadow: 7px 5px 5px -3px rgba(92,92,92,0.4), 0px 5px 10px rgba(92,92,92,0.6), -7px 5px 5px -3px rgba(92,92,92,0.4);
+    /* box-shadow: 7px 5px 5px -3px rgba(92,92,92,0.4), 0px 5px 10px rgba(92,92,92,0.6), -7px 5px 5px -3px rgba(92,92,92,0.4); */
 }
 .posts-container {
     justify-content: center;
     display: block;
-    box-shadow: 7px 5px 5px -3px rgba(92,92,92,0.4), 0px 5px 10px rgba(92,92,92,0.6), -7px 5px 5px -3px rgba(92,92,92,0.4);
+    /* box-shadow: 7px 5px 5px -3px rgba(92,92,92,0.4), 0px 5px 10px rgba(92,92,92,0.6), -7px 5px 5px -3px rgba(92,92,92,0.4); */
 }
 .music-blocks {
     text-align: center;
@@ -346,43 +377,42 @@ h5 {
 .footer-info {
     position: sticky;
     padding: 0px 0px 40px 0px;
-    background-color: #1b1717;
+    background-color: #242526;
     color: #eeebdd;
     width: 100%;
     text-align: center;
 }
 .desktop-footer {
-    border-top: 3px solid #810000;
+    border-top: 3px solid grey;
     padding: 20px 0px;
     position: static;
     bottom: 0;
-    background-color: #1b1717;
+    background-color: #242526;
     color: #eeebdd;
     display: none;
     margin-left: auto;
     margin-right: auto;
 }
 .mobile-footer {
-    background-color: #1b1717;
+    background-color: #242526;
     position: fixed;
     bottom: 0px;
 }
 .row-items {
     padding: 0px;
-    background-color: #1b1717;
+    background-color: #242526;
 }
 .a-tag-container {
-    background-color: #1b1717;
-
+    background-color: #242526;
 }
 .a-tag {
     position: fixed;
     bottom: 0.9%;
 }
 .a-tags {
-    border-top: 3px solid #810000;
+    border-top: 3px solid grey;
     padding: 5% 7%;
-    background-color: #1b1717;
+    background-color: #242526;
 }
 .desktop-footer-parts {
     width: 100%;
@@ -390,7 +420,7 @@ h5 {
 }
 .row1 {
     width: 100%;
-    background-color: #1b1717;
+    background-color: #242526;
 }
 #footer-list1 {
     display: flex;
@@ -403,16 +433,16 @@ h5 {
     padding: 10px 15px;
     padding-top: 20px;
     width: 100px;
-    box-shadow: 0 0 5px #810000;
+    box-shadow: 0 0 10px #18191a;
     border-radius: 15px;
 }
 #footer-list1 a:hover {
     color: white;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px white;
 }
 #row2 {
     width: 100%;
-    background-color: #1b1717;
+    background-color: #242526;
     padding-top: 10px;
 }
 #footer-list2 {
@@ -446,25 +476,27 @@ h5 {
     display: inline;
 }
 .img-tab {
-    box-shadow: 5px 5px 8px #4f0205;
+    box-shadow: 5px 5px 8px #18191a;
 }
 #mob-tab-foot {
-    border-top: 3px solid #810000;
-    background-color: #1b1717;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: #242526;
     width: 100%;
     display: flex;
-    padding: 5px 0px;
+    padding: 3px 0px;
+    padding-bottom: 5px;
 }
 #mob-tab-foot a {
-    box-shadow: 5px 5px 10px #4f0205;
-    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
     padding: 10px 15px;
 }
 .mob-tab-container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1b1717;
+    background-color: #242526;
 }
 @media only screen and (min-width:320px) {
     .about-icons a {
@@ -484,6 +516,14 @@ h5 {
 @media only screen and (min-width:411px) {
     .about-icons a {
         padding: 0px 14px 0px 14px;
+    }
+    #mob-tab-foot a {
+        padding: 10px 25px;
+    }
+}
+@media only screen and (min-width:500px) {
+    #mob-tab-foot a {
+        padding: 10px 35px;
     }
 }
 @media only screen and (min-width:768px) {
