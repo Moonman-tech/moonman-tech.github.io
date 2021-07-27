@@ -2,43 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06509fe-6a03-4678-91a3-aaa26d484455" name="Default Changelist" comment="First version">
-      <change afterPath="$PROJECT_DIR$/css/images/marbles.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agriculture.html" beforeDir="false" afterPath="$PROJECT_DIR$/agriculture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/art.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/icons/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/icons/book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuisine.html" beforeDir="false" afterPath="$PROJECT_DIR$/cuisine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easternc.html" beforeDir="false" afterPath="$PROJECT_DIR$/easternc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/economy.html" beforeDir="false" afterPath="$PROJECT_DIR$/economy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fashion.html" beforeDir="false" afterPath="$PROJECT_DIR$/fashion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frees.html" beforeDir="false" afterPath="$PROJECT_DIR$/frees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gautengp.html" beforeDir="false" afterPath="$PROJECT_DIR$/gautengp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiphop.html" beforeDir="false" afterPath="$PROJECT_DIR$/hiphop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hope.html" beforeDir="false" afterPath="$PROJECT_DIR$/hope.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house.html" beforeDir="false" afterPath="$PROJECT_DIR$/house.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invest.html" beforeDir="false" afterPath="$PROJECT_DIR$/invest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jazz.html" beforeDir="false" afterPath="$PROJECT_DIR$/jazz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kwazulun.html" beforeDir="false" afterPath="$PROJECT_DIR$/kwazulun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limpopop.html" beforeDir="false" afterPath="$PROJECT_DIR$/limpopop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpumalangap.html" beforeDir="false" afterPath="$PROJECT_DIR$/mpumalangap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/northernc.html" beforeDir="false" afterPath="$PROJECT_DIR$/northernc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/northw.html" beforeDir="false" afterPath="$PROJECT_DIR$/northw.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/other.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/popular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnb.html" beforeDir="false" afterPath="$PROJECT_DIR$/rnb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top half.html" beforeDir="false" afterPath="$PROJECT_DIR$/marble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tourism.html" beforeDir="false" afterPath="$PROJECT_DIR$/tourism.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trending.html" beforeDir="false" afterPath="$PROJECT_DIR$/trending.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/westernc.html" beforeDir="false" afterPath="$PROJECT_DIR$/westernc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/agriculture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/art.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/books.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/business.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/counter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cuisine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/culture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/easternc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/economy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/fashion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frees.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gautengp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hiphop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hope.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/house.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/invest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jazz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/kwazulun.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/limpopop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mpumalangap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/northernc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/northw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/popular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rnb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tourism.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/trending.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/westernc.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
