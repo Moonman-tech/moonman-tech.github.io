@@ -103,7 +103,8 @@ table td {
     padding: 2px;
 }
 .laptop-menu img:hover {
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px #18191a;
+    background-color: #18191a;
 }
 .drop-icons {
     width: 30%;
@@ -114,7 +115,7 @@ table td {
 }
 .navbar {
     overflow: hidden;
-    background-color: #810000;
+    background-color: #242526;
     position: fixed;
     top: 0;
     width: 100%;
@@ -228,6 +229,11 @@ table td {
     margin-right: auto;
     width: 100%;
 }
+.agriculture-table {
+    color: white;
+    background-color: #242526;
+}
+
 .ad-posts img {
     padding: 0px 0px 10px 0px;
     width: 100%;
@@ -350,13 +356,12 @@ table td {
 }
 .music-blocks ul {
     padding: 20px 5px 20px 5px;
-    box-shadow: 0px 5px 5px #4f0205;
+    box-shadow: 0px 5px 5px #18191a;
     border-radius: 10px;
 }
 .music-blocks ul:hover {
     color: white;
-    border-style: solid;
-    border-color: #FFFFFF;
+    box-shadow: 0px 5px 5px black;
 }
 .music-blocks a {
     padding: 0px 0px;
@@ -383,7 +388,7 @@ table td {
     text-align: center;
 }
 .desktop-footer {
-    border-top: 3px solid grey;
+    border-top: 2px solid grey;
     padding: 20px 0px;
     position: static;
     bottom: 0;
@@ -438,7 +443,8 @@ table td {
 }
 #footer-list1 a:hover {
     color: white;
-    box-shadow: 0 0 10px white;
+    background-color: #18191a;
+    box-shadow: 0 0 10px #18191a;
 }
 #row2 {
     width: 100%;
@@ -460,7 +466,7 @@ table td {
     border-radius: 15px;
 }
 #footer-list2 a:hover {
-    box-shadow: 0 0 5px white;
+    background-color: #18191a;
 }
 #row3 {
     width: 100%;
@@ -552,7 +558,7 @@ table td {
         padding: 0px 5px;
     }
     .content-cover {
-        width: 70%;
+        width: 85%;
     }
     .posts-container {
         padding: 0px 5px 0px 5px;
@@ -565,6 +571,7 @@ table td {
         width: 60%;
     }
     .cover-layer {
+        width: 100%;
     }
     .music-posts {
         width: 40%;
@@ -621,7 +628,7 @@ table td {
         display: none;
     }
     .cover-layer {
-        width: 60%;
+        width: 850px;
     }
     #mob-tab-foot {
         display: none;
@@ -658,7 +665,7 @@ table td {
 }
 @media only screen and (min-width:1366px) {
     .content-cover {
-        width: 750px;
+        width: 1200px;
     }
     .ad-posts {
         width: 60%;
